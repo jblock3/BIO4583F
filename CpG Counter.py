@@ -1,0 +1,5 @@
+nucleotideInput = input("Input nucleotide string: ")
+CpG_count = nucleotideInput.count("CG")
+NpG_count = nucleotideInput.count("NG")
+print("CpG count = ", CpG_count)
+print("NpG count = ", NpG_count)
